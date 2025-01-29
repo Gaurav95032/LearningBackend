@@ -46,6 +46,10 @@ app.get('/github', (req, res) => {
   res.json(github)
 })
 
+app.get('/youtube', (req, res)=>{
+  res.send('this is youtube')
+})
+
 app.get('/instagram', (req, res) => {
   res.send('this is Gaurav Waghmare')
 })
